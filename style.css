@@ -1,9 +1,9 @@
-.inner {
+.seat {
 	margin: 0px;
 	padding: 0px;
 	display: inline;
-	width: 12px;
-	height: 10px;
+	width: 8px;
+	height: 8px;
 	float: left;
 	color: white;
 	border: 1px solid;
@@ -11,12 +11,130 @@
 	/*border-radius: 10px;*/
 }
 
-#container {
-	/*overflow: hidden;*/
-	border: 5px solid;
+.no-seat {
 	margin: 0px;
 	padding: 0px;
-	width: 700px;
-	height: 600px;
+	display: inline;
+	width: 10px;
+	height: 10px;
+	float: left;
+	color: white;
+}
+
+#container {
+	/*overflow: hidden;*/
+	/*border: 5px solid;*/
+	margin: 0px;
+	padding: 0px;
+	width: 2590px;
+	height: 430px;
 	font-size: 0px;
+}
+
+.sa {
+	margin-top: 40px;
+	margin-right: 10px;
+	width: 260px;
+	height: 160px;
+	float: left;
+
+}
+
+.ra {
+	margin-top: 40px;
+	margin-right: 10px;
+	width: 270px;
+	height: 160px;
+	float: left;
+}
+
+.qa {
+	margin-right: 10px;
+	width: 470px;
+	height: 200px;
+	float: left;
+}
+
+.pa {
+	margin-right: 10px;
+	width: 530px;
+	height: 200px;
+	float: left;
+}
+
+.oa {
+	margin-right: 10px;
+	width: 470px;
+	height: 200px;
+	float: left;
+}
+
+.na {
+	margin-top: 40px;
+	margin-right: 10px;
+	width: 270px;
+	height: 160px;
+	float: left;
+}
+
+.ma {
+	margin-top: 40px;
+	width: 260px;
+	height: 160px;
+	float: left;
+}
+
+.sb {
+	margin-top: 40px;
+	margin-right: 25px;
+	width: 200px;
+	height: 190px;
+	float: left;
+}
+
+.rb {
+	margin-top: 40px;
+	margin-right: 15px;
+	width: 400px;
+	height: 190px;
+	float: left;
+}
+
+.qb {
+	margin-top: 130px;
+	margin-right: 10px;
+	width: 420px;
+	height: 190px;
+	float: left;
+}
+
+.pb {
+	margin-top: 130px;
+	margin-right: 10px;
+	width: 420px;
+	height: 190px;
+	float: left;
+}
+
+.ob {
+	margin-top: 130px;
+	margin-right: 15px;
+	width: 420px;
+	height: 190px;
+	float: left;
+}
+
+.nb {
+	margin-top: 40px;
+	margin-right: 25px;
+	width: 420px;
+	height: 190px;
+	float: left;
+}
+
+.mb {
+	margin-top: 40px;
+	width: 210px;
+	height: 190px;
+	float: left;
 }

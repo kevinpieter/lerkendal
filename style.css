@@ -138,3 +138,15 @@
 	height: 190px;
 	float: left;
 }
+
+#download-image, #generate-image {
+	padding: 2px;
+	border: 2px solid;
+	background: white;
+	color: black;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: lowercase;
+	text-decoration: none;
+}

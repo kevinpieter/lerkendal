@@ -1,0 +1,22 @@
+.inner {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	width: 12px;
+	height: 10px;
+	float: left;
+	color: white;
+	border: 1px solid;
+	border-color: black;
+	/*border-radius: 10px;*/
+}
+
+#container {
+	/*overflow: hidden;*/
+	border: 5px solid;
+	margin: 0px;
+	padding: 0px;
+	width: 700px;
+	height: 600px;
+	font-size: 0px;
+}

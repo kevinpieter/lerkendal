@@ -135,19 +135,37 @@ $(document).ready(function(){
 		}
 	}
 
-	//changing the color of the seat when clicked
-	$('.seat').on('click', function(){
-		var bgcol = $(this).css('background-color');
-		if (bgcol == 'rgb(0, 0, 0)') {
-			$(this).css('background', 'white');
-			$(this).css('border-color', 'black');	
-		}
-		else {
-			$(this).css('background', 'black');
-			$(this).css('border-color', 'white');
-		}
-		
-	});
+	var bgcol;
+    var isMouseDown = false;       
+
+    //find the background color of the seat you clicked
+    $('.seat').mousedown(function() { 
+    	bgcol = $(this).css('background-color')       
+        isMouseDown = true;
+    });
+
+    //stop painting
+    $('.seat').mouseup(function() {
+        isMouseDown = false;
+    });
+
+    //painting white seats black or black seats white
+    $('.seat').hover(function() {
+        if (isMouseDown) {
+        	var seat;
+        	var border;
+        	if (bgcol == 'rgb(0, 0, 0)') {
+        		seat = 'white';
+        		border = 'black';
+        	}
+        	else {
+        		seat = 'black';
+        		border = 'white';
+        	}
+            $(this).css('background-color', seat);  
+            $(this).css('border-color', border); 
+        }
+    });
 
 	//The code below will download a png of your masterpiece mosaic
 	//The js library html2canvas is downloaded from https://html2canvas.hertzen.com
